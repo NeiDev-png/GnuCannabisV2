@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Controllers",
+    "\\DTOs",
+    "\\Models",
+    "\\Repositories",
+    "\\Repositories\\Implements",
+    "\\Repositories\\Interfaces"
+  ],
+  "SelectedNode": "\\Models\\Planta.cs",
+  "PreviewInSolutionExplorer": false
+}

@@ -1,0 +1,250 @@
+[
+  {
+    "ContainingType": "GNUCannabis.Controllers.CultivosController",
+    "Method": "GetAll",
+    "RelativePath": "api/Cultivos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GNUCannabis.Controllers.CultivosController",
+    "Method": "PostCultivo",
+    "RelativePath": "api/Cultivos",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cultivoCreateDto",
+        "Type": "GNUCannabis.DTOs.CultivoCreateUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GNUCannabis.Controllers.CultivosController",
+    "Method": "GetById",
+    "RelativePath": "api/Cultivos/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GNUCannabis.Controllers.CultivosController",
+    "Method": "PutCultivo",
+    "RelativePath": "api/Cultivos/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "cultivoUpdateDto",
+        "Type": "GNUCannabis.DTOs.CultivoCreateUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GNUCannabis.Controllers.CultivosController",
+    "Method": "DeleteCultivoAsync",
+    "RelativePath": "api/Cultivos/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GNUCannabis.Controllers.HistorialPlantasController",
+    "Method": "GetHistorialByPlantaId",
+    "RelativePath": "api/HistorialPlantas/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GNUCannabis.Controllers.HistorialPlantasController",
+    "Method": "AddHistorialPlanta",
+    "RelativePath": "api/HistorialPlantas/{id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "historialPlantaDTO",
+        "Type": "GNUCannabis.DTOs.HistorialPlantaDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GNUCannabis.Controllers.HistorialPlantasController",
+    "Method": "UpdateHistorialPlanta",
+    "RelativePath": "api/HistorialPlantas/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "historialPlantaDTO",
+        "Type": "GNUCannabis.DTOs.HistorialPlantaDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GNUCannabis.Controllers.HistorialPlantasController",
+    "Method": "DeleteHistorialPlanta",
+    "RelativePath": "api/HistorialPlantas/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GNUCannabis.Controllers.PlantasController",
+    "Method": "GetAll",
+    "RelativePath": "api/Plantas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GNUCannabis.Controllers.PlantasController",
+    "Method": "CreatePlanta",
+    "RelativePath": "api/Plantas",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "plantaCreateDto",
+        "Type": "GNUCannabis.DTOs.PlantaCreateUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GNUCannabis.Controllers.PlantasController",
+    "Method": "GetById",
+    "RelativePath": "api/Plantas/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GNUCannabis.Controllers.PlantasController",
+    "Method": "UpdatePlanta",
+    "RelativePath": "api/Plantas/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "plantaUpdateDto",
+        "Type": "GNUCannabis.DTOs.PlantaCreateUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GNUCannabis.Controllers.PlantasController",
+    "Method": "DeletePlantaAsync",
+    "RelativePath": "api/Plantas/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GNUCannabis.Controllers.PlantasController",
+    "Method": "GetPlantasByCultivo",
+    "RelativePath": "api/Plantas/cultivo/{cultivoId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cultivoId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
