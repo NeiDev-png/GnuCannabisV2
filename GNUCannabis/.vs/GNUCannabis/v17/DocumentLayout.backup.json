@@ -1,7 +1,48 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Julian\\Escritorio\\GNUCannabis2\\GNUCannabis\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{626F9EC8-D315-1D5F-E812-05701FBD7E0D}|GNUCannabis.csproj|c:\\users\\julian\\escritorio\\gnucannabis2\\gnucannabis\\dtos\\usuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{626F9EC8-D315-1D5F-E812-05701FBD7E0D}|GNUCannabis.csproj|solutionrelative:dtos\\usuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{626F9EC8-D315-1D5F-E812-05701FBD7E0D}|GNUCannabis.csproj|c:\\users\\julian\\escritorio\\gnucannabis2\\gnucannabis\\mappings\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{626F9EC8-D315-1D5F-E812-05701FBD7E0D}|GNUCannabis.csproj|solutionrelative:mappings\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{626F9EC8-D315-1D5F-E812-05701FBD7E0D}|GNUCannabis.csproj|c:\\users\\julian\\escritorio\\gnucannabis2\\gnucannabis\\repositories\\implements\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{626F9EC8-D315-1D5F-E812-05701FBD7E0D}|GNUCannabis.csproj|solutionrelative:repositories\\implements\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{626F9EC8-D315-1D5F-E812-05701FBD7E0D}|GNUCannabis.csproj|c:\\users\\julian\\escritorio\\gnucannabis2\\gnucannabis\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{626F9EC8-D315-1D5F-E812-05701FBD7E0D}|GNUCannabis.csproj|solutionrelative:models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{626F9EC8-D315-1D5F-E812-05701FBD7E0D}|GNUCannabis.csproj|c:\\users\\julian\\escritorio\\gnucannabis2\\gnucannabis\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{626F9EC8-D315-1D5F-E812-05701FBD7E0D}|GNUCannabis.csproj|solutionrelative:controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{626F9EC8-D315-1D5F-E812-05701FBD7E0D}|GNUCannabis.csproj|c:\\users\\julian\\escritorio\\gnucannabis2\\gnucannabis\\controllers\\plantascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{626F9EC8-D315-1D5F-E812-05701FBD7E0D}|GNUCannabis.csproj|solutionrelative:controllers\\plantascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{626F9EC8-D315-1D5F-E812-05701FBD7E0D}|GNUCannabis.csproj|c:\\users\\julian\\escritorio\\gnucannabis2\\gnucannabis\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{626F9EC8-D315-1D5F-E812-05701FBD7E0D}|GNUCannabis.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{626F9EC8-D315-1D5F-E812-05701FBD7E0D}|GNUCannabis.csproj|c:\\users\\julian\\escritorio\\gnucannabis2\\gnucannabis\\services\\implements\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{626F9EC8-D315-1D5F-E812-05701FBD7E0D}|GNUCannabis.csproj|solutionrelative:services\\implements\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{626F9EC8-D315-1D5F-E812-05701FBD7E0D}|GNUCannabis.csproj|c:\\users\\julian\\escritorio\\gnucannabis2\\gnucannabis\\services\\implements\\plantaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{626F9EC8-D315-1D5F-E812-05701FBD7E0D}|GNUCannabis.csproj|solutionrelative:services\\implements\\plantaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{626F9EC8-D315-1D5F-E812-05701FBD7E0D}|GNUCannabis.csproj|c:\\users\\julian\\escritorio\\gnucannabis2\\gnucannabis\\services\\interfaces\\iusuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{626F9EC8-D315-1D5F-E812-05701FBD7E0D}|GNUCannabis.csproj|solutionrelative:services\\interfaces\\iusuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,6 +67,136 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UsuarioDto.cs",
+              "DocumentMoniker": "C:\\Users\\Julian\\Escritorio\\GNUCannabis2\\GNUCannabis\\DTOs\\UsuarioDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\UsuarioDto.cs",
+              "ToolTip": "C:\\Users\\Julian\\Escritorio\\GNUCannabis2\\GNUCannabis\\DTOs\\UsuarioDto.cs",
+              "RelativeToolTip": "DTOs\\UsuarioDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwUAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T02:43:11.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\Julian\\Escritorio\\GNUCannabis2\\GNUCannabis\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "Models\\Usuario.cs",
+              "ToolTip": "C:\\Users\\Julian\\Escritorio\\GNUCannabis2\\GNUCannabis\\Models\\Usuario.cs",
+              "RelativeToolTip": "Models\\Usuario.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA4wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T02:41:54.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Julian\\Escritorio\\GNUCannabis2\\GNUCannabis\\Mappings\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "Mappings\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\Julian\\Escritorio\\GNUCannabis2\\GNUCannabis\\Mappings\\MappingProfile.cs*",
+              "RelativeToolTip": "Mappings\\MappingProfile.cs*",
+              "ViewState": "AgIAACIAAAAAAAAAAAAUwDcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T02:39:10.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Julian\\Escritorio\\GNUCannabis2\\GNUCannabis\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Julian\\Escritorio\\GNUCannabis2\\GNUCannabis\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T02:36:47.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PlantasController.cs",
+              "DocumentMoniker": "C:\\Users\\Julian\\Escritorio\\GNUCannabis2\\GNUCannabis\\Controllers\\PlantasController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PlantasController.cs",
+              "ToolTip": "C:\\Users\\Julian\\Escritorio\\GNUCannabis2\\GNUCannabis\\Controllers\\PlantasController.cs",
+              "RelativeToolTip": "Controllers\\PlantasController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T02:35:38.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UsuariosController.cs",
+              "DocumentMoniker": "C:\\Users\\Julian\\Escritorio\\GNUCannabis2\\GNUCannabis\\Controllers\\UsuariosController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UsuariosController.cs",
+              "ToolTip": "C:\\Users\\Julian\\Escritorio\\GNUCannabis2\\GNUCannabis\\Controllers\\UsuariosController.cs",
+              "RelativeToolTip": "Controllers\\UsuariosController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T02:33:24.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UsuarioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Julian\\Escritorio\\GNUCannabis2\\GNUCannabis\\Repositories\\Implements\\UsuarioRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Implements\\UsuarioRepository.cs",
+              "ToolTip": "C:\\Users\\Julian\\Escritorio\\GNUCannabis2\\GNUCannabis\\Repositories\\Implements\\UsuarioRepository.cs",
+              "RelativeToolTip": "Repositories\\Implements\\UsuarioRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T02:31:33.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UsuarioService.cs",
+              "DocumentMoniker": "C:\\Users\\Julian\\Escritorio\\GNUCannabis2\\GNUCannabis\\Services\\Implements\\UsuarioService.cs",
+              "RelativeDocumentMoniker": "Services\\Implements\\UsuarioService.cs",
+              "ToolTip": "C:\\Users\\Julian\\Escritorio\\GNUCannabis2\\GNUCannabis\\Services\\Implements\\UsuarioService.cs",
+              "RelativeToolTip": "Services\\Implements\\UsuarioService.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T02:27:40.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PlantaService.cs",
+              "DocumentMoniker": "C:\\Users\\Julian\\Escritorio\\GNUCannabis2\\GNUCannabis\\Services\\Implements\\PlantaService.cs",
+              "RelativeDocumentMoniker": "Services\\Implements\\PlantaService.cs",
+              "ToolTip": "C:\\Users\\Julian\\Escritorio\\GNUCannabis2\\GNUCannabis\\Services\\Implements\\PlantaService.cs",
+              "RelativeToolTip": "Services\\Implements\\PlantaService.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T02:26:54.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IUsuarioService.cs",
+              "DocumentMoniker": "C:\\Users\\Julian\\Escritorio\\GNUCannabis2\\GNUCannabis\\Services\\Interfaces\\IUsuarioService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IUsuarioService.cs",
+              "ToolTip": "C:\\Users\\Julian\\Escritorio\\GNUCannabis2\\GNUCannabis\\Services\\Interfaces\\IUsuarioService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IUsuarioService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T02:25:53.738Z",
+              "EditorCaption": ""
             }
           ]
         }

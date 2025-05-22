@@ -23,6 +23,7 @@ builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 builder.Services.AddScoped<IPlantaService, PlantaService>();
 builder.Services.AddScoped<ICultivoService, CultivoService>();
 builder.Services.AddScoped<IHistorialPlantaService, HistorialPlantaService>();
+builder.Services.AddScoped<IUsuarioService, UsuarioService>();
 
 // Controladores
 builder.Services.AddControllers();

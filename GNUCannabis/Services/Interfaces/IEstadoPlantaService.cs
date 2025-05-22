@@ -1,6 +1,4 @@
 using GNUCannabis.DTOs;
-using System.Collections.Generic;
-using System.Threading.Tasks;
 
 namespace GNUCannabis.Services.Interfaces
 {

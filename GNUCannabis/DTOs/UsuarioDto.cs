@@ -6,6 +6,7 @@
         public string? Persona { get; set; }
         public string Correo { get; set; } = null!;
         public string? Rol { get; set; }
-        public bool Estado { get; set; }
+        public string? Cultivo { get; set; }
+        public string? Estado { get; set; }
     }
 }

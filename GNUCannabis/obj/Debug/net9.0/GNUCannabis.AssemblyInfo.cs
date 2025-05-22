@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GNUCannabis")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8b2ac9e9423f5cee8fbe37a291b9bf0e5d0beac9")]
 [assembly: System.Reflection.AssemblyProductAttribute("GNUCannabis")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GNUCannabis")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

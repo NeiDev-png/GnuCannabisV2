@@ -32,12 +32,23 @@ public class MappingProfile : Profile
         CreateMap<TiposPlanta, TiposPlantaDto>();
         CreateMap<Usuario, UsuarioDto>();
 
-        CreateMap<Usuario, UsuarioDto>()
-            .ForMember(dest => dest.Persona, opt => opt.MapFrom(src => src.IdPersonaNavigation.NombreCompleto)) // Cambia "Nombre" si el campo tiene otro nombre en Persona
-            .ForMember(dest => dest.Rol, opt => opt.MapFrom(src => src.IdRolNavigation.NombreRol)) // Cambia "Nombre" si el campo tiene otro nombre en Rol
-            .ForMember(dest => dest.Correo, opt => opt.MapFrom(src => src.Correo))
-            .ForMember(dest => dest.Estado, opt => opt.MapFrom(src => src.Estado))
-            .ForMember(dest => dest.IdUsuario, opt => opt.MapFrom(src => src.IdUsuario));
+        //CreateMap<Usuario, UsuarioDto>()
+        //    .ForMember(dest => dest.Persona, opt => opt.MapFrom(src => src.IdPersonaNavigation.NombreCompleto)) // Cambia "Nombre" si el campo tiene otro nombre en Persona
+        //    .ForMember(dest => dest.Rol, opt => opt.MapFrom(src => src.IdRolNavigation.NombreRol)) // Cambia "Nombre" si el campo tiene otro nombre en Rol
+        //    .ForMember(dest => dest.Correo, opt => opt.MapFrom(src => src.Correo))
+        //    .ForMember(dest => dest.Estado, opt => opt.MapFrom(src => src.Estado))
+        //    .ForMember(dest => dest.IdUsuario, opt => opt.MapFrom(src => src.IdUsuario));
+
+
+         CreateMap<Usuario, UsuarioDto>()
+                .ForMember(dest => dest.Persona,
+                    opt => opt.MapFrom(src => src.IdPersonaNavigation.NombreCompleto))
+                .ForMember(dest => dest.Rol,
+                    opt => opt.MapFrom(src => src.IdRolNavigation.NombreRol))
+                .ForMember(dest => dest.Estado,
+                    opt => opt.MapFrom(src => src.Estado ? "Activo" : "Inactivo"))
+                .ForMember(dest => dest.Cultivo,
+                    opt => opt.MapFrom(src => src.IdCultivoNavigation != null ? src.IdCultivoNavigation.Nombre : null));
 
         CreateMap<TiposCultivo, TiposCultivoDto>();
     }

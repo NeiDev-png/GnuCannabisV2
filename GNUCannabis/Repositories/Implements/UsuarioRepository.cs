@@ -8,15 +8,14 @@ namespace GNUCannabis.Repositories.Implements
     {
         public UsuarioRepository(DbContext context) : base(context) { }
 
-        public async Task<Usuario?> GetByEmailAsync(string email)
+        async Task<IEnumerable<Usuario>> IUsuarioRepository.GetUsuariosAsync()
         {
-            return await _dbSet.FirstOrDefaultAsync(u => u.Correo == email);
-        }
-
-        public async Task<Usuario?> AuthenticateAsync(string email, string passwordHash)
-        {
-            return await _dbSet.FirstOrDefaultAsync(u =>
-                u.Correo == email && u.ContrasenaHash == passwordHash);
+            return await _dbSet
+                .AsNoTracking()
+                .Include(u => u.IdPersonaNavigation)
+                .Include(u => u.IdRolNavigation)
+                .Include(u => u.IdCultivoNavigation)
+                .ToListAsync();
         }
     }
 }
