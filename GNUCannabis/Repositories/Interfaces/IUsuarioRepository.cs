@@ -5,5 +5,6 @@ namespace GNUCannabis.Repositories.Interfaces
     public interface IUsuarioRepository : IRepository<Usuario>
     {
         Task<IEnumerable<Usuario>> GetUsuariosAsync();
+        Task<Usuario?> GetUsuariosByIdAsync(int id);
     }
 }

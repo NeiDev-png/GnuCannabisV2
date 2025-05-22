@@ -17,5 +17,15 @@ namespace GNUCannabis.Repositories.Implements
                 .Include(u => u.IdCultivoNavigation)
                 .ToListAsync();
         }
+
+        async Task<Usuario?> IUsuarioRepository.GetUsuariosByIdAsync(int id)
+        {
+            return await _dbSet
+                .AsNoTracking()
+                .Include(u => u.IdPersonaNavigation)
+                .Include(u => u.IdRolNavigation)
+                .Include(u => u.IdCultivoNavigation)
+                .FirstOrDefaultAsync(u => u.IdUsuario == id);
+        }
     }
 }

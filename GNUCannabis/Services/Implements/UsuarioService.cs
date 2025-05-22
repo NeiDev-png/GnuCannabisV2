@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using GNUCannabis.DTOs;
+using GNUCannabis.Models;
 using GNUCannabis.Repositories.Interfaces;
 using GNUCannabis.Services.Interfaces;
 
@@ -17,9 +18,21 @@ namespace GNUCannabis.Services.Implements
             _mapper = mapper;
         }
 
-        Task IUsuarioService.AddUsuarioAsync(UsuarioDto usuarioDTO)
+        async Task<UsuarioDto> IUsuarioService.AddUsuarioAsync(UsuarioCreateUpdateDto usuarioDTO)
         {
-            throw new NotImplementedException();
+            var usuario = new Usuario
+            {
+                IdPersona = usuarioDTO.IdPersona,
+                ContrasenaHash = usuarioDTO.Contraseña,
+                Correo = usuarioDTO.Correo,
+                IdCultivo = usuarioDTO.IdCultivo,
+                IdRol = usuarioDTO.IdRol
+            };
+
+            await _unitOfWork.Usuarios.AddAsync(usuario);
+            await _unitOfWork.CompleteAsync();
+
+            return _mapper.Map<UsuarioDto>(usuario);
         }
 
         Task IUsuarioService.DeleteUsuarioAsync(int id)
@@ -34,9 +47,12 @@ namespace GNUCannabis.Services.Implements
             return _mapper.Map<IEnumerable<UsuarioDto>>(usuarios);
         }
 
-        Task<UsuarioDto> IUsuarioService.GetUsuarioByIdAsync(int id)
+        async Task<UsuarioDto> IUsuarioService.GetUsuarioByIdAsync(int id)
         {
-            throw new NotImplementedException();
+            var usuario = await _unitOfWork.Usuarios.GetUsuariosByIdAsync(id);
+            var usuarioDto = _mapper.Map<UsuarioDto>(usuario);
+
+            return usuarioDto;
         }
 
         Task IUsuarioService.UpdateUsuarioAsync(int id, UsuarioDto usuarioDTO)

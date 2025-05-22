@@ -50,6 +50,12 @@ public class MappingProfile : Profile
                 .ForMember(dest => dest.Cultivo,
                     opt => opt.MapFrom(src => src.IdCultivoNavigation != null ? src.IdCultivoNavigation.Nombre : null));
 
+        CreateMap<UsuarioCreateUpdateDto, Usuario>()
+            .ForMember(dest => dest.IdPersona, opt => opt.MapFrom(src => src.IdPersona))
+            .ForMember(dest => dest.ContrasenaHash, opt => opt.MapFrom(src => src.Contraseña)) // si luego querés hashear, cambiamos esto
+            .ForMember(dest => dest.Estado, opt => opt.MapFrom(src => src.Estado == 1));
+
+
         CreateMap<TiposCultivo, TiposCultivoDto>();
     }
 }

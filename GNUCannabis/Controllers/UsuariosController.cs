@@ -11,8 +11,6 @@ namespace GNUCannabis.Controllers
     public class UsuariosController : ControllerBase
     {
 
-        private readonly ICultivoService _cultivoService;
-
         private readonly IUsuarioService _usuarioService;
         public UsuariosController(IUsuarioService usuarioService)
         {
@@ -27,7 +25,25 @@ namespace GNUCannabis.Controllers
             return Ok(usuarios);
         }
 
+        [HttpGet("{id:int}")]
+        public async Task<ActionResult<UsuarioDto>> GetUsuariosById(int id)
+        {
+            var dto = await _usuarioService.GetUsuarioByIdAsync(id);
+            return dto == null ? NotFound() : Ok(dto);
+
+        }
+
+        [HttpPost]
+        public async Task<ActionResult<UsuarioDto>> PostUsuario([FromBody] UsuarioCreateUpdateDto usuarioCreateDto)
+        {
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+
+            var usuarioCreado = await _usuarioService.AddUsuarioAsync(usuarioCreateDto);
 
 
+            return StatusCode(201);
+
+        }
     }
 }
