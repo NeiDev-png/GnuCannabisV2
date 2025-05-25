@@ -9,7 +9,7 @@ namespace GNUCannabis.Services.Interfaces
         Task<IEnumerable<UsuarioDto>> GetAllUsuariosAsync();
         Task<UsuarioDto> GetUsuarioByIdAsync(int id);
         Task<UsuarioDto> AddUsuarioAsync(UsuarioCreateUpdateDto usuarioDTO);
-        Task UpdateUsuarioAsync(int id, UsuarioDto usuarioDTO);
+        Task<UsuarioDto> UpdateUsuarioAsync(int id, UsuarioCreateUpdateDto usuarioDTO);
         Task DeleteUsuarioAsync(int id);
     }
 }

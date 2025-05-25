@@ -55,9 +55,23 @@ namespace GNUCannabis.Services.Implements
             return usuarioDto;
         }
 
-        Task IUsuarioService.UpdateUsuarioAsync(int id, UsuarioDto usuarioDTO)
+        async Task<UsuarioDto> IUsuarioService.UpdateUsuarioAsync(int id, UsuarioCreateUpdateDto usuarioDTO)
         {
-            throw new NotImplementedException();
+            var usuarioExistente = await _unitOfWork.Usuarios.GetUsuariosByIdAsync(id);
+
+            // 2. Aplicar las modificaciones
+            usuarioExistente.Correo = usuarioDTO.Correo;
+            usuarioExistente.IdCultivo = usuarioDTO.IdCultivo;
+            usuarioExistente.IdRol= usuarioDTO.IdRol;
+
+            // 3. Actualizar la entidad
+            _unitOfWork.Usuarios.Update(usuarioExistente);
+
+            // 4. Guardar los cambios
+            await _unitOfWork.CompleteAsync();
+
+            // 5. Devolver el DTO actualizado
+            return _mapper.Map<UsuarioDto>(usuarioExistente);
         }
     }
 }

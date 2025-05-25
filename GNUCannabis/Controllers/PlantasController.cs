@@ -68,8 +68,6 @@ namespace GNUCannabis.Controllers
             {
                 var plantaActualizada = await _plantaService.UpdatePlantaAsync(id, plantaUpdateDto);
                 return Ok(plantaActualizada); // Devuelve 200 OK con la planta actualizada
-                // Opcionalmente, puedes devolver 204 No Content si no quieres devolver el cuerpo
-                // return NoContent();
             }
             catch (Exception) // Captura la excepción NotFoundException
             {

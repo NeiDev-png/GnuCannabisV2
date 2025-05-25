@@ -3,40 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\Julian\\Escritorio\\GNUCannabis2\\GNUCannabis\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{626F9EC8-D315-1D5F-E812-05701FBD7E0D}|GNUCannabis.csproj|c:\\users\\julian\\escritorio\\gnucannabis2\\gnucannabis\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{626F9EC8-D315-1D5F-E812-05701FBD7E0D}|GNUCannabis.csproj|solutionrelative:models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{626F9EC8-D315-1D5F-E812-05701FBD7E0D}|GNUCannabis.csproj|c:\\users\\julian\\escritorio\\gnucannabis2\\gnucannabis\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{626F9EC8-D315-1D5F-E812-05701FBD7E0D}|GNUCannabis.csproj|solutionrelative:controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{626F9EC8-D315-1D5F-E812-05701FBD7E0D}|GNUCannabis.csproj|c:\\users\\julian\\escritorio\\gnucannabis2\\gnucannabis\\repositories\\interfaces\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{626F9EC8-D315-1D5F-E812-05701FBD7E0D}|GNUCannabis.csproj|solutionrelative:repositories\\interfaces\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{626F9EC8-D315-1D5F-E812-05701FBD7E0D}|GNUCannabis.csproj|c:\\users\\julian\\escritorio\\gnucannabis2\\gnucannabis\\repositories\\implements\\tiposplantasrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{626F9EC8-D315-1D5F-E812-05701FBD7E0D}|GNUCannabis.csproj|solutionrelative:repositories\\implements\\tiposplantasrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{626F9EC8-D315-1D5F-E812-05701FBD7E0D}|GNUCannabis.csproj|c:\\users\\julian\\escritorio\\gnucannabis2\\gnucannabis\\repositories\\implements\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{626F9EC8-D315-1D5F-E812-05701FBD7E0D}|GNUCannabis.csproj|solutionrelative:repositories\\implements\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{626F9EC8-D315-1D5F-E812-05701FBD7E0D}|GNUCannabis.csproj|c:\\users\\julian\\escritorio\\gnucannabis2\\gnucannabis\\services\\interfaces\\icultivoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{626F9EC8-D315-1D5F-E812-05701FBD7E0D}|GNUCannabis.csproj|solutionrelative:services\\interfaces\\icultivoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{626F9EC8-D315-1D5F-E812-05701FBD7E0D}|GNUCannabis.csproj|c:\\users\\julian\\escritorio\\gnucannabis2\\gnucannabis\\services\\implements\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{626F9EC8-D315-1D5F-E812-05701FBD7E0D}|GNUCannabis.csproj|solutionrelative:services\\implements\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{626F9EC8-D315-1D5F-E812-05701FBD7E0D}|GNUCannabis.csproj|c:\\users\\julian\\escritorio\\gnucannabis2\\gnucannabis\\dtos\\usuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{626F9EC8-D315-1D5F-E812-05701FBD7E0D}|GNUCannabis.csproj|solutionrelative:dtos\\usuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{626F9EC8-D315-1D5F-E812-05701FBD7E0D}|GNUCannabis.csproj|c:\\users\\julian\\escritorio\\gnucannabis2\\gnucannabis\\services\\interfaces\\iusuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{626F9EC8-D315-1D5F-E812-05701FBD7E0D}|GNUCannabis.csproj|solutionrelative:services\\interfaces\\iusuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{626F9EC8-D315-1D5F-E812-05701FBD7E0D}|GNUCannabis.csproj|c:\\users\\julian\\escritorio\\gnucannabis2\\gnucannabis\\mappings\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{626F9EC8-D315-1D5F-E812-05701FBD7E0D}|GNUCannabis.csproj|solutionrelative:mappings\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{626F9EC8-D315-1D5F-E812-05701FBD7E0D}|GNUCannabis.csproj|c:\\users\\julian\\escritorio\\gnucannabis2\\gnucannabis\\dtos\\cultivodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{626F9EC8-D315-1D5F-E812-05701FBD7E0D}|GNUCannabis.csproj|solutionrelative:dtos\\cultivodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{626F9EC8-D315-1D5F-E812-05701FBD7E0D}|GNUCannabis.csproj|c:\\users\\julian\\escritorio\\gnucannabis2\\gnucannabis\\services\\implements\\plantaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{626F9EC8-D315-1D5F-E812-05701FBD7E0D}|GNUCannabis.csproj|solutionrelative:services\\implements\\plantaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{626F9EC8-D315-1D5F-E812-05701FBD7E0D}|GNUCannabis.csproj|c:\\users\\julian\\escritorio\\gnucannabis2\\gnucannabis\\controllers\\plantascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{626F9EC8-D315-1D5F-E812-05701FBD7E0D}|GNUCannabis.csproj|solutionrelative:controllers\\plantascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{626F9EC8-D315-1D5F-E812-05701FBD7E0D}|GNUCannabis.csproj|c:\\users\\julian\\escritorio\\gnucannabis2\\gnucannabis\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{626F9EC8-D315-1D5F-E812-05701FBD7E0D}|GNUCannabis.csproj|solutionrelative:controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,68 +58,27 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UsuarioRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Julian\\Escritorio\\GNUCannabis2\\GNUCannabis\\Repositories\\Implements\\UsuarioRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\Implements\\UsuarioRepository.cs",
-              "ToolTip": "C:\\Users\\Julian\\Escritorio\\GNUCannabis2\\GNUCannabis\\Repositories\\Implements\\UsuarioRepository.cs",
-              "RelativeToolTip": "Repositories\\Implements\\UsuarioRepository.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T04:56:58.257Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "IUsuarioRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Julian\\Escritorio\\GNUCannabis2\\GNUCannabis\\Repositories\\Interfaces\\IUsuarioRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\Interfaces\\IUsuarioRepository.cs",
-              "ToolTip": "C:\\Users\\Julian\\Escritorio\\GNUCannabis2\\GNUCannabis\\Repositories\\Interfaces\\IUsuarioRepository.cs",
-              "RelativeToolTip": "Repositories\\Interfaces\\IUsuarioRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "TiposPlantasRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Julian\\Escritorio\\GNUCannabis2\\GNUCannabis\\Repositories\\Implements\\TiposPlantasRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Implements\\TiposPlantasRepository.cs",
+              "ToolTip": "C:\\Users\\Julian\\Escritorio\\GNUCannabis2\\GNUCannabis\\Repositories\\Implements\\TiposPlantasRepository.cs",
+              "RelativeToolTip": "Repositories\\Implements\\TiposPlantasRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwgAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T04:56:47.779Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-24T01:53:14.526Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\Users\\Julian\\Escritorio\\GNUCannabis2\\GNUCannabis\\Models\\Usuario.cs",
-              "RelativeDocumentMoniker": "Models\\Usuario.cs",
-              "ToolTip": "C:\\Users\\Julian\\Escritorio\\GNUCannabis2\\GNUCannabis\\Models\\Usuario.cs",
-              "RelativeToolTip": "Models\\Usuario.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "ICultivoService.cs",
+              "DocumentMoniker": "C:\\Users\\Julian\\Escritorio\\GNUCannabis2\\GNUCannabis\\Services\\Interfaces\\ICultivoService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\ICultivoService.cs",
+              "ToolTip": "C:\\Users\\Julian\\Escritorio\\GNUCannabis2\\GNUCannabis\\Services\\Interfaces\\ICultivoService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\ICultivoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T04:53:16.689Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UsuarioDto.cs",
-              "DocumentMoniker": "C:\\Users\\Julian\\Escritorio\\GNUCannabis2\\GNUCannabis\\DTOs\\UsuarioDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\UsuarioDto.cs",
-              "ToolTip": "C:\\Users\\Julian\\Escritorio\\GNUCannabis2\\GNUCannabis\\DTOs\\UsuarioDto.cs",
-              "RelativeToolTip": "DTOs\\UsuarioDto.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAA6wAoAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T04:52:53.099Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CultivoDto.cs",
-              "DocumentMoniker": "C:\\Users\\Julian\\Escritorio\\GNUCannabis2\\GNUCannabis\\DTOs\\CultivoDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\CultivoDto.cs",
-              "ToolTip": "C:\\Users\\Julian\\Escritorio\\GNUCannabis2\\GNUCannabis\\DTOs\\CultivoDto.cs",
-              "RelativeToolTip": "DTOs\\CultivoDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T04:52:51.178Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-24T01:53:07.676Z"
             },
             {
               "$type": "Document",
@@ -137,49 +88,58 @@
               "RelativeDocumentMoniker": "Services\\Implements\\UsuarioService.cs",
               "ToolTip": "C:\\Users\\Julian\\Escritorio\\GNUCannabis2\\GNUCannabis\\Services\\Implements\\UsuarioService.cs",
               "RelativeToolTip": "Services\\Implements\\UsuarioService.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAIwB0AAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAADQAAAAAAAAAAAAYwEIAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T04:08:44.29Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-22T06:16:10.352Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IUsuarioService.cs",
+              "DocumentMoniker": "C:\\Users\\Julian\\Escritorio\\GNUCannabis2\\GNUCannabis\\Services\\Interfaces\\IUsuarioService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IUsuarioService.cs",
+              "ToolTip": "C:\\Users\\Julian\\Escritorio\\GNUCannabis2\\GNUCannabis\\Services\\Interfaces\\IUsuarioService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IUsuarioService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T06:15:52.292Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "MappingProfile.cs",
-              "DocumentMoniker": "C:\\Users\\Julian\\Escritorio\\GNUCannabis2\\GNUCannabis\\Mappings\\MappingProfile.cs",
-              "RelativeDocumentMoniker": "Mappings\\MappingProfile.cs",
-              "ToolTip": "C:\\Users\\Julian\\Escritorio\\GNUCannabis2\\GNUCannabis\\Mappings\\MappingProfile.cs",
-              "RelativeToolTip": "Mappings\\MappingProfile.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAACcAAABbAAAAAAAAAA==",
+              "Title": "PlantaService.cs",
+              "DocumentMoniker": "C:\\Users\\Julian\\Escritorio\\GNUCannabis2\\GNUCannabis\\Services\\Implements\\PlantaService.cs",
+              "RelativeDocumentMoniker": "Services\\Implements\\PlantaService.cs",
+              "ToolTip": "C:\\Users\\Julian\\Escritorio\\GNUCannabis2\\GNUCannabis\\Services\\Implements\\PlantaService.cs",
+              "RelativeToolTip": "Services\\Implements\\PlantaService.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAuwFcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T04:02:22.284Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-22T06:17:35.801Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "PlantasController.cs",
-              "DocumentMoniker": "C:\\Users\\Julian\\Escritorio\\GNUCannabis2\\GNUCannabis\\Controllers\\PlantasController.cs",
-              "RelativeDocumentMoniker": "Controllers\\PlantasController.cs",
-              "ToolTip": "C:\\Users\\Julian\\Escritorio\\GNUCannabis2\\GNUCannabis\\Controllers\\PlantasController.cs",
-              "RelativeToolTip": "Controllers\\PlantasController.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAowC4AAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T04:00:47.066Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 0,
               "Title": "UsuariosController.cs",
               "DocumentMoniker": "C:\\Users\\Julian\\Escritorio\\GNUCannabis2\\GNUCannabis\\Controllers\\UsuariosController.cs",
               "RelativeDocumentMoniker": "Controllers\\UsuariosController.cs",
               "ToolTip": "C:\\Users\\Julian\\Escritorio\\GNUCannabis2\\GNUCannabis\\Controllers\\UsuariosController.cs",
               "RelativeToolTip": "Controllers\\UsuariosController.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAqwCkAAABFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T04:00:46.451Z",
+              "WhenOpened": "2025-05-22T06:14:22.281Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PlantasController.cs",
+              "DocumentMoniker": "C:\\Users\\Julian\\Escritorio\\GNUCannabis2\\GNUCannabis\\Controllers\\PlantasController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PlantasController.cs",
+              "ToolTip": "C:\\Users\\Julian\\Escritorio\\GNUCannabis2\\GNUCannabis\\Controllers\\PlantasController.cs",
+              "RelativeToolTip": "Controllers\\PlantasController.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAuwD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T06:14:22.744Z"
             }
           ]
         }

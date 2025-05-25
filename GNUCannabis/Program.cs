@@ -25,6 +25,18 @@ builder.Services.AddScoped<ICultivoService, CultivoService>();
 builder.Services.AddScoped<IHistorialPlantaService, HistorialPlantaService>();
 builder.Services.AddScoped<IUsuarioService, UsuarioService>();
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("PermitirTodos", builder =>
+    {
+        builder
+            .AllowAnyOrigin()
+            .AllowAnyMethod()
+            .AllowAnyHeader();
+    });
+});
+
+
 // Controladores
 builder.Services.AddControllers();
 

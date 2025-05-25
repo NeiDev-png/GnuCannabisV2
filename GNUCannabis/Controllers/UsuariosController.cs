@@ -45,5 +45,25 @@ namespace GNUCannabis.Controllers
             return StatusCode(201);
 
         }
+
+        [HttpPut("{id:int}")]
+        public async Task<ActionResult<UsuarioDto>> PutUsuario([FromBody] UsuarioCreateUpdateDto usuarioCreateDto, int id)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState); // Devuelve 400 si el modelo no es válido
+            }
+
+            try
+            {
+                var usuarioActualizado = await _usuarioService.UpdateUsuarioAsync(id, usuarioCreateDto);
+                return Ok(usuarioActualizado); // Devuelve 200 OK con la planta actualizada
+            }
+            catch (Exception) // Captura la excepción NotFoundException
+            {
+                return NotFound(); // Devuelve 404 si la planta no se encuentra
+            }
+
+        }
     }
 }
